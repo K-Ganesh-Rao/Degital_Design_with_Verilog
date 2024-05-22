@@ -4,7 +4,7 @@ module dff_asrt(
 	output reg q
 );
 
-always@(posedge clk or negedge rst_n)
+	always@(posedge clk or negedge rst_n) 
 	begin
 		if(!rst_n)
 			q<=0;
